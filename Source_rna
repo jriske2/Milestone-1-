@@ -1,0 +1,17 @@
+def source_rna(protein): #given to define
+	Stop=0
+	for key in genetic_code.keys():
+		if genetic_code[key] == 'stop':
+			Stop +=1
+	total=1
+	for i in range(0,len(protein)):
+		check= protein[i]
+		count=0
+		for key in genetic_code[key]== 
+			if genetic_code[key] == check.upper():
+				count += 1
+		if count != 0:
+				total *= count
+	return (total * Stop)%1000000
+
+print(source_rna("MA")) #given test
