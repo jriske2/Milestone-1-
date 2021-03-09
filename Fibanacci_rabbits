@@ -1,0 +1,6 @@
+def fibonacci_rabbits(n,k): #given to define
+    if n<2:
+        return n
+    else:
+        return fibonacci_rabbits(n-1,k)+ fibonacci_rabbits(n-2,k)*k
+print("fibbonacci rabbits:", fibonacci_rabbits(5,3)) #test given
